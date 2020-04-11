@@ -10,10 +10,10 @@ export class ProductDescriptionComponent implements OnInit {
 
   albumInfo;
 
-  constructor(private productService : ProductService) { }
+  constructor(private _productService : ProductService) { }
 
   ngOnInit() {
-    this.productService.getAlbum(1)
+    this._productService.getAlbum(1)
     .subscribe(
       result => this.albumInfo = result,
       error => console.log('error getting album')
