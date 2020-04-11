@@ -1,0 +1,13 @@
+.tracklisting{
+    padding-top: 10px;
+    font-size: 16px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: block;
+    line-height: 1;
+}
